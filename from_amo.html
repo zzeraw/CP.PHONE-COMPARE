@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>Приведение телефонов к единому виду</title>
+</head>
+
+<body>
+    <h2>Форма для загрузки файла с номерами</h2>
+    <hr>
+    <p><i>Необходимо загрузить обычный текстовый файл, где в каждой строке файла находится 1 телефонный номер. Пример:</i></p>
+    <div><i>
+        Телефонный_номер_1<br>
+        Телефонный_номер_2<br>
+        Телефонный_номер_3<br>
+        Телефонный_номер_4
+    </i></div>
+    <hr>
+    <form action="amo_convert.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="filename">   <input type="submit" value="Загрузить"><br>
+    </form>
+</body>
+
+</html>

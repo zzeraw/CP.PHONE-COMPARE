@@ -1,0 +1,84 @@
+<html>
+<head>
+  <title>Приведение телефонов к единому виду</title>
+</head>
+
+<body>
+    <h2>Форма для загрузки файла с входящими звонками из Oktell</h2>
+    <hr>
+    <p><i>Необходимо загрузить текстовый файл выгрузки из Oktell. Пример:</i></p>
+    <div>
+        <table>
+            <tr>
+                <th>Идентификатор коммутации</th>
+                <th>Идентификатор цепочки</th>
+                <th>Дата</th>
+                <th>Время</th>
+                <th>Тип</th>
+                <th>Абонент А</th>
+                <th>Абонент Б</th>
+                <th>В разговоре</th>
+                <th>Ожидание ответа</th>
+                <th>Старт</th>
+                <th>Набрано</th>
+                <th>Стоп</th>
+                <th>Линия А</th>
+                <th>Линия Б</th>
+            </tr>
+            <tr>
+                <td>f39b75e9-f2d4-4acb-b791-277122bd60b9</td>
+                <td>30.07.2015</td>
+                <td>08:55:34</td>
+                <td>5</td>
+                <td>sip:220110@85.234.0.44:5061;user=phone</td>
+                <td>Шорнова Ирина Юрьевна</td>
+                <td>249</td>
+                <td>7</td>
+                <td>2</td>
+                <td>6019</td>
+                <td>2</td>
+                <td>1</td>
+                <td>13001</td>
+                <td>17008</td>
+            </tr>
+            <tr>
+                <td>f39b75e9-f2d4-4acb-b791-277122bd60b9</td>
+                <td>30.07.2015</td>
+                <td>08:55:34</td>
+                <td>5</td>
+                <td>sip:220110@85.234.0.44:5061;user=phone</td>
+                <td>Шорнова Ирина Юрьевна</td>
+                <td>249</td>
+                <td>7</td>
+                <td>2</td>
+                <td>6019</td>
+                <td>2</td>
+                <td>1</td>
+                <td>13001</td>
+                <td>17008</td>
+            </tr>
+            <tr>
+                <td>f39b75e9-f2d4-4acb-b791-277122bd60b9</td>
+                <td>30.07.2015</td>
+                <td>08:55:34</td>
+                <td>5</td>
+                <td>sip:220110@85.234.0.44:5061;user=phone</td>
+                <td>Шорнова Ирина Юрьевна</td>
+                <td>249</td>
+                <td>7</td>
+                <td>2</td>
+                <td>6019</td>
+                <td>2</td>
+                <td>1</td>
+                <td>13001</td>
+                <td>17008</td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <form action="oktell_convert_in.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="filename">   <input type="submit" value="Загрузить"><br>
+    </form>
+</body>
+
+</html>

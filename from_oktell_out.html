@@ -1,0 +1,84 @@
+<html>
+<head>
+  <title>Приведение телефонов к единому виду</title>
+</head>
+
+<body>
+    <h2>Форма для загрузки файла с исходящими звонками из Oktell</h2>
+    <hr>
+    <p><i>Необходимо загрузить текстовый файл выгрузки из Oktell. Пример:</i></p>
+    <div>
+        <table>
+            <tr>
+                <th>Идентификатор коммутации</th>
+                <th>Идентификатор цепочки</th>
+                <th>Дата</th>
+                <th>Время</th>
+                <th>Тип</th>
+                <th>Абонент А</th>
+                <th>Абонент Б</th>
+                <th>В разговоре</th>
+                <th>Ожидание ответа</th>
+                <th>Старт</th>
+                <th>Набрано</th>
+                <th>Стоп</th>
+                <th>Линия А</th>
+                <th>Линия Б</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>87d0d4f8-9aa9-4647-9127-a3fb78be7b27</td>
+                <td>30.07.2015</td>
+                <td>09:13:50</td>
+                <td>1</td>
+                <td>Яковлева Марина Валентиновна</td>
+                <td>89169394347</td>
+                <td>134</td>
+                <td>24</td>
+                <td>3</td>
+                <td>2</td>
+                <td>1</td>
+                <td>17006</td>
+                <td>13001</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>87d0d4f8-9aa9-4647-9127-a3fb78be7b27</td>
+                <td>30.07.2015</td>
+                <td>09:13:50</td>
+                <td>1</td>
+                <td>Яковлева Марина Валентиновна</td>
+                <td>89169394347</td>
+                <td>134</td>
+                <td>24</td>
+                <td>3</td>
+                <td>2</td>
+                <td>1</td>
+                <td>17006</td>
+                <td>13001</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>87d0d4f8-9aa9-4647-9127-a3fb78be7b27</td>
+                <td>30.07.2015</td>
+                <td>09:13:50</td>
+                <td>1</td>
+                <td>Яковлева Марина Валентиновна</td>
+                <td>89169394347</td>
+                <td>134</td>
+                <td>24</td>
+                <td>3</td>
+                <td>2</td>
+                <td>1</td>
+                <td>17006</td>
+                <td>13001</td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <form action="oktell_convert_out.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="filename">   <input type="submit" value="Загрузить"><br>
+    </form>
+</body>
+
+</html>
